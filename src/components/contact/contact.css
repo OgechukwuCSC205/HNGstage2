@@ -1,0 +1,140 @@
+.contact-page {
+    width: 65rem;
+    justify-content: center;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+    margin-left: 19rem;
+    /* margin-right: auto; */
+}
+
+
+h2 {
+    font-weight: 600;
+    font-size: 2.5rem;
+}
+
+.hi-text {
+    font-size: 1.6rem;
+    color: #475467;
+}
+
+.name-box {
+    display: flex;
+    flex-direction: row;
+    margin-top: 4rem;
+}
+
+.email-box {
+    display: block;
+    margin-top: 2rem;
+    flex-direction: column;
+}
+
+.label {
+    font-size: 14px;
+    font-weight: 500;
+    display: block;
+}
+
+.lastname-box {
+    margin-left: 2rem;
+}
+
+.input-name {
+    width: 22rem;
+    height: 2rem;
+    display: block;
+    border: 1px solid #D0D5DD;
+    border-radius: 8px;
+    outline: none;
+    font-size: 0.93rem;
+}
+
+.input-email {
+    width: 46.5rem;
+    height: 2rem;
+    display: block;
+    border: 1px solid #D0D5DD;
+    border-radius: 8px;
+    outline: none;
+    font-size: 0.93rem;
+    margin-bottom: 2rem;
+}
+
+.input-message {
+    width: 46.5rem;
+    height: 7rem;
+    display: block;
+    border: 1px solid #D0D5DD;
+    border-radius: 8px;
+    outline: none;
+    font-size: 0.93rem;
+    margin-bottom: auto;
+}
+
+.agree-box{
+    display: flex;
+    margin-top: 1.4rem;
+
+}
+
+.agree-checkbox {
+    border: 0.5px dotted #D0D5DD;
+    outline: none;
+    border-radius: 6px;
+    width: 1.2rem;
+    height: 1.2rem;
+    
+}
+
+.agree-text {
+    color: #475467;
+    margin-left: 0.5rem;
+}
+
+.button-class {
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+    width: 47rem;
+    height: 2.5rem;
+    border-radius: 8px;
+    background-color: #1570EF;
+    color: white;
+    border: 1px solid #1570EF;
+}
+
+@media (min-width: 300px) and (max-width: 900px) {
+    .contact-page {
+        width: 28rem;
+        justify-content: center;
+        margin-top: 4rem;
+        margin-bottom: 2rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .name-box {
+        display: block;
+    }
+
+    .lastname-box {
+        margin-left: 0;
+        margin-top: 2rem;
+    }
+
+    .input-email {
+        width: 22rem;
+    }
+
+    .input-message {
+        width: 22rem;
+    }
+
+    .agree-text {
+        width: 22rem;
+    }
+
+    .button-class {
+        width: 22rem;
+    }
+}
