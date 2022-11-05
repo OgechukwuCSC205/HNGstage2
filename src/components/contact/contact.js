@@ -73,7 +73,7 @@ const Contact = () => {
               value="agreement"
             />
             <label for="" className="agree-text">
-              You agree to providing your data to who may contact you.
+              You agree to providing your data to Ogechukwu Ata, who may contact you.
             </label>
           </div>
           <button id="btn__submit" className="button-class">
