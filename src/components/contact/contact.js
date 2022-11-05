@@ -1,7 +1,9 @@
 import "./contact.css";
 
 const Contact = () => {
-
+    // let sendMessage = function () {
+    //     alert('Your message has been sent')
+    // }
     
 
   return (
@@ -79,7 +81,7 @@ const Contact = () => {
               You agree to providing your data to Ogechukwu Ata, who may contact you.
             </label>
           </div>
-          <button id="btn__submit" className="button-class" onClick={(e) => {alert('Your message has been sent'); e.preventDefault(); e.stopPropagation()}}>
+          <button id="btn__submit" className="button-class">
             Send Message
           </button>
         </div>
