@@ -1,6 +1,9 @@
 import "./contact.css";
 
 const Contact = () => {
+
+    
+
   return (
     <div className="">
       <form className="">
@@ -72,11 +75,11 @@ const Contact = () => {
               name="agreement"
               value="agreement"
             />
-            <label for="" className="agree-text">
+            <label htmlFor="" className="agree-text">
               You agree to providing your data to Ogechukwu Ata, who may contact you.
             </label>
           </div>
-          <button id="btn__submit" className="button-class">
+          <button id="btn__submit" className="button-class" onClick={(e) => {alert('Your message has been sent'); e.preventDefault(); e.stopPropagation()}}>
             Send Message
           </button>
         </div>
