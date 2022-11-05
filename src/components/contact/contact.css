@@ -13,9 +13,26 @@ h2 {
     font-size: 2.5rem;
 }
 
-input:invalid + p{
-    display: block;    
-} 
+      
+input:invalid {
+    
+}
+
+textarea:invalid {
+    
+}
+
+input:invalid + span::after {
+    content: "Please fill in the field";
+    color: #ff123f;
+    font-size: 0.8rem;
+}
+
+textarea:invalid + span::after {
+    content: "Please fill in the field";
+    color: #ff123f;
+    font-size: 0.8rem;
+}
 
 .hi-text {
     font-size: 1.6rem;
@@ -25,7 +42,7 @@ input:invalid + p{
 .name-box {
     display: flex;
     flex-direction: row;
-    margin-top: 4rem;
+    
 }
 
 .email-box {
@@ -36,6 +53,7 @@ input:invalid + p{
 
 .label {
     font-size: 14px;
+    margin-top: 2rem;
     font-weight: 500;
     display: block;
 }
@@ -63,7 +81,6 @@ input:invalid + p{
     border-radius: 8px;
     outline: none;
     font-size: 0.93rem;
-    margin-bottom: 2rem;
     font-family:Georgia, 'Times New Roman', Times, serif;
 }
 

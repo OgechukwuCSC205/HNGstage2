@@ -28,7 +28,7 @@ const Contact = () => {
                 maxLength={20}
                 className="input-name"
               />
-              <p style={{color: 'red', display: 'none'}}> Please fill out your first name</p>
+              <span></span>
             </div>
             
 
@@ -44,7 +44,7 @@ const Contact = () => {
                 maxLength={20}
                 className="input-name"
               />
-              <p style={{color: 'red', display: 'none'}}> Please fill out your last name</p>
+              <span></span>
             </div>
           </div>
 
@@ -59,6 +59,7 @@ const Contact = () => {
               required
               className="input-email"
             />
+            <span></span>
            
             <label htmlFor="officeDays" className="label">
               Message
@@ -70,6 +71,7 @@ const Contact = () => {
               className="input-message"
               required
             />
+            <span></span>
             
           </div>
 
@@ -82,6 +84,7 @@ const Contact = () => {
               value="agreement"
               
             />
+            
             <label htmlFor="" className="agree-text">
               You agree to providing your data to Ogechukwu Ata, who may contact you.
             </label>
