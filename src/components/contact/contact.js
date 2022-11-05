@@ -3,8 +3,7 @@ import "./contact.css";
 const Contact = () => {
     // let sendMessage = function () {
     //     alert('Your message has been sent')
-    // }
-    
+    // }    
 
   return (
     <div className="">
@@ -29,7 +28,9 @@ const Contact = () => {
                 maxLength={20}
                 className="input-name"
               />
+              <p style={{color: 'red', display: 'none'}}> Please fill out your first name</p>
             </div>
+            
 
             <div className="lastname-box">
               <label htmlFor="text" className="label">
@@ -43,6 +44,7 @@ const Contact = () => {
                 maxLength={20}
                 className="input-name"
               />
+              <p style={{color: 'red', display: 'none'}}> Please fill out your last name</p>
             </div>
           </div>
 
@@ -57,7 +59,7 @@ const Contact = () => {
               required
               className="input-email"
             />
-
+           
             <label htmlFor="officeDays" className="label">
               Message
             </label>
@@ -66,7 +68,9 @@ const Contact = () => {
               type="text"
               placeholder=" Send your message, I'll try to respond..."
               className="input-message"
+              required
             />
+            
           </div>
 
           <div className="agree-box">
@@ -76,6 +80,7 @@ const Contact = () => {
               id="checkbox"
               name="agreement"
               value="agreement"
+              
             />
             <label htmlFor="" className="agree-text">
               You agree to providing your data to Ogechukwu Ata, who may contact you.
