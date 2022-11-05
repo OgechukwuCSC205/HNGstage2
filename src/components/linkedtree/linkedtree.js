@@ -1,5 +1,3 @@
-import { useEffect } from "react";
-import { useNavigate } from "react-router-dom";
 import "./linkedtree.css";
 import profile from "../../image/paint.jpg";
 import share from "../../image/shareicon2.jpg";
