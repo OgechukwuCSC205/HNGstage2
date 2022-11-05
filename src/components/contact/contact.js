@@ -17,9 +17,9 @@ const Contact = () => {
                 First Name
               </label>
               <input
-              id="first_name"
+                id="first_name"
                 type="text"
-                placeholder="Enter you first Name"
+                placeholder="  Enter your first name"
                 required
                 maxLength={20}
                 className="input-name"
@@ -31,9 +31,9 @@ const Contact = () => {
                 Last Name
               </label>
               <input
-              id="last_name"
+                id="last_name"
                 type="text"
-                placeholder="Enter you last Name"
+                placeholder="  Enter your last name"
                 required
                 maxLength={20}
                 className="input-name"
@@ -46,9 +46,9 @@ const Contact = () => {
               Email
             </label>
             <input
-            id="email"
+              id="email"
               type="email"
-              placeholder="yourname@email.com"
+              placeholder="  yourname@email.com"
               required
               className="input-email"
             />
@@ -56,21 +56,29 @@ const Contact = () => {
             <label htmlFor="officeDays" className="label">
               Message
             </label>
-            <input
-            id="message"
+            <textarea
+              id="message"
               type="text"
-              placeholder="Send your message, I'll try to respond..."
+              placeholder=" Send your message, I'll try to respond..."
               className="input-message"
             />
           </div>
 
           <div className="agree-box">
-            <input type="checkbox" className="agree-checkbox" id="checkbox" name="agreement" value="agreement" />
+            <input
+              type="checkbox"
+              className="agree-checkbox"
+              id="checkbox"
+              name="agreement"
+              value="agreement"
+            />
             <label for="" className="agree-text">
-             You agree to providing your data to who may contact you.
+              You agree to providing your data to who may contact you.
             </label>
           </div>
-          <button id="btn__submit"className="button-class">Send Message</button>
+          <button id="btn__submit" className="button-class">
+            Send Message
+          </button>
         </div>
       </form>
     </div>
